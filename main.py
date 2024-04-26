@@ -7,5 +7,3 @@ class Car:
     def get_info(self):
         return f"{self.year} {self.make} {self.model}"
 
-car1 = Car("Toyota", "Camry", 2020)
-print(car1.get_info())
